@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/ramonscampos"
   },
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "Meep user interface library to handle with themes and components",
   "scripts": {
     "rollup": "rollup -c",
