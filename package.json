@@ -1,7 +1,7 @@
 {
-  "name": "meep-ui-final",
+  "name": "@ramonscampos/meep-ui",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/{repo}"
+    "registry": "https://npm.pkg.github.com/ramonscampos"
   },
   "version": "0.0.1",
   "description": "Meep user interface library to handle with themes and components",
