@@ -13,7 +13,7 @@ export default [
       {
         file: packageJson.main,
         format: "cjs",
-        sourcemap: false,
+        sourcemap: true,
       },
       {
         file: packageJson.module,
@@ -27,6 +27,7 @@ export default [
       typescript({ tsconfig: "./tsconfig.json" }),
       postcss(),
     ],
+    external: ["react", "react-dom", "styled-components"],
   },
   {
     input: "dist/esm/types/index.d.ts",
