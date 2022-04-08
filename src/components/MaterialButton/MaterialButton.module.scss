@@ -1,0 +1,11 @@
+.container {
+    all: unset;
+    
+    button {
+        border-radius: 12px;
+        text-transform: capitalize;
+        border-width: 2px;
+    
+        background: red;
+    }
+}
